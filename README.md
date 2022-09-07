@@ -1,6 +1,6 @@
 <html>
   <body>
-     <p align="center"> <img src="https://img.shields.io/badge/Vertabelo-0678BE?style=for-the-badge&logo=Vertabelo&logoColor=white"> <img src="https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=Power%20BI&logoColor=white"> <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"> <img src="https://img.shields.io/badge/Python-006400?style=for-the-badge&logo=Python&logoColor=white"> </p>
+     <p align="center"> <img src="https://img.shields.io/badge/Vertabelo-0678BE?style=for-the-badge&logo=Vertabelo&logoColor=white"> <img src="https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=Power%20BI&logoColor=white"> <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"> <img src="https://img.shields.io/badge/Python-006400?style=for-the-badge&logo=Python&logoColor=white"> <img src="https://img.shields.io/badge/MongoDB-228B22?style=for-the-badge&logo=MongoDB&logoColor=white"> <img src="https://img.shields.io/badge/Microsoft SQL Server-cc6600?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white"> <img src="https://img.shields.io/badge/Microsoft Azure-3366cc?style=for-the-badge&logo=Microsoft Azure&logoColor=white"> <img src="https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white"></p>
     
    
   <h2 align="center"> 🚧 D-end :calendar:  Spring 1 🚀 🚧 </h2>
@@ -84,6 +84,7 @@
    * [Figma](https://www.figma.com/)  
    * [Jira](https://www.atlassian.com/br/software/jira)
    * [Python](https://www.python.org/)
+   * [MongoDB](https://www.mongodb.com/pt-br)
     
   </body>
  <html>
