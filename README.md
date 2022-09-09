@@ -10,6 +10,7 @@
  <p align="center">
  <a href="#-sobre-o-projeto">Sobre</a> •
  <a href="#-a-equipe">A Equipe</a> •
+ <a href="#-documentation-of-users">Users</a> •
  <a href="#-funcionalidades">Funcionalidades</a> •
  <a href="#-backlog-do-produto">Backlog</a> •
  <a href="#-acesso-ao-projeto">Acesso ao projeto</a> • 
