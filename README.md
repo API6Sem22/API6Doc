@@ -40,25 +40,26 @@
     
   <p align="center"> <img src="https://github.com/guiftavares/Registro-de-Livros/blob/main/Group%2040linha.png"></p>
   
-  <h2 style="font-family:roboto;"> Funcionalidades</h2>
-  
-      
-
+  <h2 style="font-family:roboto;"> Documentation of users</h2>
+    
   <ul>
-    <li> Usuário Administrador poderá:
+    <li> Admin User Roles:
     <ul>
-      <li></li>
-      <li> </li>
+      <li> Create new users </li>
+      <li> Grant/Revoke privileges to users in the database </li>
+      <li> Read and write to the database </li>
+      <li> Change database settings </li>
       </ul></li>
   </ul>
     
   <ul>
-    <li> Usuários Analistas poderão:
+    <li> Analyst User Role:
     <ul>
-      <li></li>
-      <li></li>
+      <li> Read from database </li>
       </ul></li>
    </ul>
+
+  <h2 style="font-family:roboto;"> Funcionalidades</h2>
   
   <p align="center"> <img src="https://github.com/guiftavares/Registro-de-Livros/blob/main/Group%2040linha.png"></p>
   
