@@ -46,17 +46,17 @@
   <ul>
     <li> Admin User Roles:
     <ul>
-      <li> Create new users </li>
-      <li> Grant/Revoke privileges to users in the database </li>
-      <li> Read and write to the database </li>
-      <li> Change database settings </li>
+      <li> Create new users; </li>
+      <li> Grant/Revoke privileges to users in the database; </li>
+      <li> Read and write to the database; </li>
+      <li> Change database settings. </li>
       </ul></li>
   </ul>
     
   <ul>
     <li> Analyst User Role:
     <ul>
-      <li> Read from database </li>
+      <li> Read from database. </li>
       </ul></li>
    </ul>
 
@@ -65,6 +65,7 @@
   <p align="center"> <img src="https://github.com/guiftavares/Registro-de-Livros/blob/main/Group%2040linha.png"></p>
   
   <h2 style="font-family:roboto;"> Product Backlog</h2>
+   <p align="center"> <img src="https://user-images.githubusercontent.com/61523979/190026389-11a14309-a4d3-46b5-afa5-bbb4c408f031.jpg" style="width: 400px;"></p>
  
   <h2 style="font-family:roboto;"> Project access</h2>
     <p>The back-end of the project can be access in <a href="https://github.com/API6Sem22/API6Back">this link</a>.</p>
