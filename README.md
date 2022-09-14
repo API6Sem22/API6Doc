@@ -11,7 +11,6 @@
  <a href="#-about-the-project">About</a> •
  <a href="#-team">Team</a> •
  <a href="#-documentation-of-users">Users</a> •
- <a href="#-features">Features</a> •
  <a href="#-product-backlog">Backlog</a> •
  <a href="#-project-access">Project access</a> • 
  <a href="#-demo-videos">Demo videos</a> • 
@@ -59,8 +58,6 @@
       <li> Read from database. </li>
       </ul></li>
    </ul>
-
-  <h2 style="font-family:roboto;"> Features</h2>
   
   <p align="center"> <img src="https://github.com/guiftavares/Registro-de-Livros/blob/main/Group%2040linha.png"></p>
   
