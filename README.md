@@ -63,6 +63,7 @@
   
   <h2 style="font-family:roboto;"> Product Backlog</h2>
    <p align="center"> <img src="https://user-images.githubusercontent.com/61523979/190026389-11a14309-a4d3-46b5-afa5-bbb4c408f031.jpg" style="width: 400px;"></p>
+   <p>To see more information about the process of Product Backlog Building access <a href="https://www.figma.com/file/NFWIWaxC1tScrvCGr3ZwNY/PBB-6-SEM?node-id=0%3A1">this link</a>.</p>
  
   <h2 style="font-family:roboto;"> Project access</h2>
     <p>The back-end of the project can be access in <a href="https://github.com/API6Sem22/API6Back">this link</a>.</p>
