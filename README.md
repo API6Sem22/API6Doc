@@ -19,7 +19,7 @@
  </p>
  
  <h2 style="font-family:roboto;"> About the Project</h2>
- <p align="justify" style="font-family:roboto;"> :chart_with_upwards_trend: This procject is a partnership between <a href="https://www.domrock.net/">Dom Rock</a> and FATEC São José dos Campos, with the purpose of development a.</p>
+ <p align="justify" style="font-family:roboto;"> :chart_with_upwards_trend: This project is a partnership between <a href="https://www.domrock.net/">Dom Rock</a> and FATEC São José dos Campos, with the purpose of development a tool that allows storage, organization e visualization of data offered by two different sources. So the client can identify the inconsistencies between these data and define the best action plan for each situation.</p>
  
  <p align="center"> <img src="https://github.com/guiftavares/Registro-de-Livros/blob/main/Group%2040linha.png"></p>
  
