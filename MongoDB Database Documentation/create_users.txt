@@ -1,0 +1,9 @@
+db.createUser(
+{	user: "admin", pwd: "admin", 
+	roles:[{role: "adminAll" , db:"Medical"}
+]})
+
+db.createUser(
+{	user: "analyst", pwd: "analyst", 
+	roles:[{role: "read" , db:"Medical"}
+]})
