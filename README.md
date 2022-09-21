@@ -3,7 +3,7 @@
      <p align="center"> <img src="https://img.shields.io/badge/Vertabelo-0678BE?style=for-the-badge&logo=Vertabelo&logoColor=white"> <img src="https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=Power%20BI&logoColor=white"> <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"> <img src="https://img.shields.io/badge/Python-006400?style=for-the-badge&logo=Python&logoColor=white"> <img src="https://img.shields.io/badge/MongoDB-228B22?style=for-the-badge&logo=MongoDB&logoColor=white"> <img src="https://img.shields.io/badge/Microsoft SQL Server-cc6600?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white"> <img src="https://img.shields.io/badge/Microsoft Azure-3366cc?style=for-the-badge&logo=Microsoft Azure&logoColor=white"> <img src="https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white"></p>
     
    
-  <h2 align="center"> 🚧 D-end :calendar:  Sprint 1 🚀 🚧 </h2>
+  <h2 align="center"> 🚧 D-end :calendar:  Sprint 2 🚀 🚧 </h2>
   
   <p align="center"> <img src="https://github.com/guiftavares/Registro-de-Livros/blob/main/Group%2040linha.png"></p>
     
@@ -67,6 +67,8 @@
  
   <h2 style="font-family:roboto;"> Project access</h2>
     <p>The back-end of the project can be access in <a href="https://github.com/API6Sem22/API6Back">this link</a>.</p>
+    <p>The personal data consent documentation can be access in <a href="https://github.com/API6Sem22/API6Doc/blob/main/TERMO%20DE%20CONSENTIMENTO%20PARA%20TRATAMENTO%20DE%20DADOS%20PESSOAIS.docx.pdf">this link</a>.</p>
+    <p>The MongoDB Database Documentation can be access in <a href="https://github.com/API6Sem22/API6Doc/tree/main/MongoDB%20Database%20Documentation">this link</a>.</p>
     
     
 <p align="center"> <img src="https://github.com/guiftavares/Registro-de-Livros/blob/main/Group%2040linha.png"></p>
@@ -79,7 +81,6 @@
   
    * [Microsoft SQL Server](https://www.microsoft.com/pt-br/sql-server/sql-server-2019)
    * [Microsoft Azure](https://azure.microsoft.com/pt-br/)
-   * [SQL Server Integration Service](https://docs.microsoft.com/pt-br/sql/integration-services/sql-server-integration-services?view=sql-server-ver15)
    * [Vertabelo](https://vertabelo.com/)
    * [Microsoft Power BI](https://powerbi.microsoft.com/pt-br/)
    * [Figma](https://www.figma.com/)  
