@@ -1,0 +1,48 @@
+[{
+ $group: {
+  _id: {
+   outros_orig: '$outros_orig',
+   marca_otica: '$marca_otica',
+   plano: '$plano',
+   rubrica: '$rubrica',
+   beneficiario: '$beneficiario',
+   valor_orig: '$valor_orig'
+  }
+ }
+}, {
+ $project: {
+  outros_orig: '$_id.outros_orig',
+  marca_otica: '$_id.marca_otica',
+  plano: '$_id.plano',
+  rubrica: '$_id.rubrica',
+  beneficiario: '$_id.beneficiario',
+  valor_orig: '$_id.valor_orig'
+ }
+}, {
+ $group: {
+  _id: '$marca_otica',
+  marca_otica: {
+   $first: '$marca_otica'
+  },
+  outros_orig: {
+   $first: '$outros_orig'
+  },
+  plano: {
+   $first: '$plano'
+  },
+  rubrica: {
+   $first: '$rubrica'
+  },
+  beneficiario: {
+   $first: '$beneficiario'
+  },
+  valor_orig: {
+   $first: '$valor_orig'
+  },
+  valor_total: {
+   $sum: '$valor_orig'
+  }
+ }
+}, {
+ $out: 'medical_mensalidade_unique'
+}]
