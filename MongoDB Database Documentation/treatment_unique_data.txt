@@ -1,0 +1,43 @@
+[{
+ $group: {
+  _id: '$marca_otica',
+  firstDoc: {
+   $first: '$$ROOT'
+  },
+  allDocs: {
+   $push: '$$ROOT'
+  }
+ }
+}, {
+ $replaceRoot: {
+  newRoot: '$firstDoc'
+ }
+}, {
+ $project: {
+  _id: 0,
+  cod_contrato: '$cod_contrato',
+  nome_completo: '$nXmX_bXnXfXWXXrXX',
+  dt_nascimento: '$dt_nascimento',
+  dependente: '$dependente',
+  cod_convenio: '$codigo_convenio',
+  cod_plano: '$codigo_plano',
+  operadora: '$operadora',
+  convenio: '$convenio',
+  plano: '$plano',
+  dt_inicio_vigencia: '$inicio_vigencia',
+  dt_geracao: '$dt_geracao',
+  dt_situacao: '$dt_situacao',
+  situacao: '$situacao',
+  dt_cancelamento: '$dt_cancelamento',
+  dt_suspensao: '$dt_suspensao',
+  dt_competencia: '$competencia',
+  marca_otica: '$marca_otica',
+  marca_otica_odonto: '$marca_otica_odonto',
+  odonto_net_orig: '$odonto_net_orig',
+  odonto_orig: '$odonto_orig',
+  saude_net_orig: '$saude_net_orig',
+  saude_orig: '$saude_orig'
+ }
+}, {
+ $out: 'medical_repasse_trat_unique'
+}]
