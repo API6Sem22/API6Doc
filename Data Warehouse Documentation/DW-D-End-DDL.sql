@@ -5,9 +5,10 @@ CREATE TABLE Dim_Cliente (
     cli_data_nascimento varchar(30),
     cli_qtd_dependente int,
     cli_marca_otica bigint,
-    cli_marca_otica_odont bigint,
+    cli_marca_otica_odonto bigint,
     cli_situacao varchar(50),
     cli_data_cancelamento varchar(30),
+    cli_data_situacao varchar(30),
     cli_cod_contrato numeric(8,2),
     CONSTRAINT Dim_Cliente_pk PRIMARY KEY  (cli_id)
 );
@@ -31,14 +32,10 @@ CREATE TABLE Dim_Plano (
 
 CREATE TABLE Dim_Repasse (
     rep_id int IDENTITY(1, 1),
-    rep_valor numeric(8,2),
-    rep_competencia varchar(30),
-    rep_condicao varchar(150),
-    rep_dif_repasse bigint,
-    rep_data_geracao varchar(30),
     rep_saude_orig numeric(8,2),
-    rep_valor_mensalidade numeric(8,2),
-    rep_marca_otica_mens bigint,
+    rep_saude_net_orig numeric(8,2),
+    rep_competencia varchar(30),
+    rep_data_geracao varchar(30),
     CONSTRAINT Dim_Repasse_pk PRIMARY KEY  (rep_id)
 );
 
