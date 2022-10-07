@@ -1,0 +1,22 @@
+[{
+    $match: {
+        condicao: 'SomenteCliente'
+    }
+}, {
+    $project: {
+        _id: '$_id',
+        nome_completo: '$nome_completo',
+        plano: '$plano',
+        dt_inclusao: '$dt_inclusao',
+        marca_otica: '$marca_otica',
+        tp_beneficiario: '$tp_beneficiario',
+        valor_repasse: '$valor_mensalidade',
+        rubrica: '$rubrica',
+        dif_rep_mens: '$dif_rep_mens',
+        condicao: '$condicao'
+    }
+}, {
+    $merge: {
+        into: 'medical_final_repasse'
+    }
+}]
