@@ -1,0 +1,13 @@
+[{
+    $match: {
+        valor_mensalidade: {
+            $lt: 0
+        }
+    }
+}, {
+    $project: {
+        _id: 0
+    }
+}, {
+    $out: 'medical_mensalidade_invalid_values'
+}]
