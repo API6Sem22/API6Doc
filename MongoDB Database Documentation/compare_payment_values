@@ -1,0 +1,122 @@
+[{
+ $lookup: {
+  from: 'medical_final_repasse',
+  localField: 'marca_otica',
+  foreignField: 'marca_otica',
+  as: 'result'
+ }
+}, {
+ $addFields: {
+  marca_otica_rep: '$result.marca_otica',
+  valor_rep: '$result.valor_repasse'
+ }
+}, {
+ $project: {
+  result: 0
+ }
+}, {
+ $unwind: {
+  path: '$marca_otica_rep',
+  includeArrayIndex: '0',
+  preserveNullAndEmptyArrays: true
+ }
+}, {
+ $unwind: {
+  path: '$valor_rep',
+  includeArrayIndex: '0',
+  preserveNullAndEmptyArrays: true
+ }
+}, {
+ $addFields: {
+  dif_rep_mens: {
+   $cond: [
+    {
+     $eq: [
+      '$marca_otica',
+      '$marca_otica_rep'
+     ]
+    },
+    {
+     $subtract: [
+      '$valor_rep',
+      '$valor_mensalidade'
+     ]
+    },
+    NaN
+   ]
+  }
+ }
+}, {
+ $addFields: {
+  condicao: {
+   $switch: {
+    branches: [
+     {
+      'case': {
+       $eq: [
+        '$dif_rep_mens',
+        0
+       ]
+      },
+      then: 'Conciliados'
+     },
+     {
+      'case': {
+       $and: [
+        {
+         $ne: [
+          '$dif_rep_mens',
+          NaN
+         ]
+        },
+        {
+         $ne: [
+          '$dif_rep_mens',
+          0
+         ]
+        }
+       ]
+      },
+      then: 'ConciliadosComDiv'
+     },
+     {
+      'case': {
+       $and: [
+        {
+         $eq: [
+          '$dif_rep_mens',
+          NaN
+         ]
+        },
+        {
+         $ne: [
+          '$marca_otica',
+          0
+         ]
+        }
+       ]
+      },
+      then: 'SomenteCliente'
+     }
+    ]
+   }
+  }
+ }
+}, {
+ $project: {
+  _id: 0,
+  nome_completo: '$nome_completo',
+  plano: '$plano',
+  dt_inclusao: '$dt_inclusao',
+  marca_otica: '$marca_otica',
+  tp_beneficiario: '$tp_beneficiario',
+  valor_mensalidade: '$valor_mensalidade',
+  rubrica: '$rubrica',
+  marca_otica_rep: '$marca_otica_rep',
+  valor_rep: '$valor_rep',
+  dif_rep_mens: '$dif_rep_mens',
+  condicao: '$condicao'
+ }
+}, {
+ $out: 'medical_final_mensalidade'
+}]
