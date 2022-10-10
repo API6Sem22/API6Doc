@@ -37,7 +37,7 @@ CREATE TABLE Dim_Repasse (
     rep_data_geracao varchar(30),
     rep_valor numeric(8,2),
     rep_tipo_beneficiario varchar(5),
-    rep_rubrica varchar(30),
+    rep_rubrica varchar(60),
     rep_condicao varchar(30),
     rep_diferenca numeric(8,2),
     CONSTRAINT Dim_Repasse_pk PRIMARY KEY  (rep_id)
