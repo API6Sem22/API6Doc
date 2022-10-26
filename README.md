@@ -33,7 +33,6 @@
   <tr>
   <td align="center"><a href="https://www.linkedin.com/in/ramon-fernandes-19244a1ab/"><img style="border-radius: 50%;" src="https://github.com/GabrielSG20/API4Sem2021/blob/documentation/images/RamonFernandes.jfif" width="100px;" alt=""/><br /><sub><b>Ramon Fernandes</b></sub></a><br/><sub><b>Developer</b></sub></td>
    <td align="center"><a href="https://www.linkedin.com/in/gabriela-momilli-105b1a184/"><img style="border-radius: 50%;" src="https://github.com/API6Sem22/API6Doc/blob/main/images/GabrielaMomilli.jpeg" width="100px;" alt=""/><br /><sub><b>Gabriela Momilli</b></sub></a><br/><sub><b>Developer</b></sub></td>    
-   <td align="center"><a href="https://www.linkedin.com/in/igor-m-machado/"><img style="border-radius: 50%;" src="https://github.com/API6Sem22/API6Doc/blob/main/images/IgorM.jpg" width="100px;" alt=""/><br /><sub><b>Igor Machado</b></sub></a><br/><sub><b>Developer</b></sub></td>  
    <td align="center"><a href="https://www.linkedin.com/in/vitorhspereira/"><img style="border-radius: 50%;" src="https://github.com/API6Sem22/API6Doc/blob/main/images/VitorH.jpg" width="100px;" alt=""/><br /><sub><b>Vitor Henrique</b></sub></a><br/><sub><b>Developer</b></sub></td>  
   </tr>
 </table>
