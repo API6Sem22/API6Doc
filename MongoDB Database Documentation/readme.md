@@ -10,7 +10,7 @@
 <p align="justify" style="font-family:roboto;">TratamentMatchValues: Utilizada para criar o merge entre a medical.repasse_trat_unique e a medical_mensalidade_valid values;</p>
 
 <h2 style="font-family:roboto;"> Utilizadas na medical.insurance_amil_repasse:</h2>	
-<p align="justify" style="font-family:roboto;">Treatment_unique_data: Consiste em retirar valores duplicados da base de dados, salvando os valores únicos resultando na nova collection medical_repasse_trat_unique.</p>
+* Treatment_unique_data: Consiste em retirar valores duplicados da base de dados, salvando os valores únicos resultando na nova collection medical_repasse_trat_unique.
 
 <p align="justify" style="font-family:roboto;">TreatmentNotUniqueData_Repasse: Diferente da Treatment_unique_data, esta aggregation filtra os valores não únicos que são excluídas na anterior resultando na collection medical_repasse_trat_not_unique.</p>
 
