@@ -6,26 +6,26 @@
 
 <h2 style="font-family:roboto;"> Aggregation utilizadas no projeto:</h2>
 
-<h2 style="font-family:roboto;"> Utilizada na medical.repasse_trat_unique:</h2>
+<h3 style="font-family:roboto;"> Utilizada na medical.repasse_trat_unique:</h3>
 <b>TratamentMatchValues:</b> Utilizada para criar o merge entre a medical.repasse_trat_unique e a medical_mensalidade_valid values;
 
-<h2 style="font-family:roboto;"> Utilizadas na medical.insurance_amil_repasse:</h2>	
+<h3 style="font-family:roboto;"> Utilizadas na medical.insurance_amil_repasse:</h3>	
 
 <b>Treatment_unique_data:</b> Consiste em retirar valores duplicados da base de dados, salvando os valores únicos resultando na nova collection medical_repasse_trat_unique;
 
 <b>TreatmentNotUniqueData_Repasse:</b> Diferente da Treatment_unique_data, esta aggregation filtra os valores não únicos que são excluídas na anterior resultando na collection medical_repasse_trat_not_unique;
 
-<h2 style="font-family:roboto;"> Utilizadas na medical.insurance_amil_mensalidade</h2>
+<h3 style="font-family:roboto;"> Utilizadas na medical.insurance_amil_mensalidade</h3>
 
 <b>Column_and_data_handling:</b> Utilizado para retirar valores duplicados referentes a collection medical.insurance_amil_mensalidade resultando na nova collection medical_mensalidade_unique;
 
 <b>Compare_payment_values:</b> Aggregation utilizada para comparar os valores declarados quanto ao pagamento da mensalidade, com propósito de apresentar os valores reais das dívidas resultando na collection medical_final_mensalidade;
 
-<h2 style="font-family:roboto;"> Utilizada na collection medical_final_mensalidade:</h2>
+<h3 style="font-family:roboto;"> Utilizada na collection medical_final_mensalidade:</h3>
 
 <b>Condition_filter_and_merge:</b> Filtra pelo campo condicao, utilizando do valor “SomenteCliente” para mergear os dados dessa collection com a medical_final_repasse.
 
-<h2 style="font-family:roboto;">Utilizadas na collection medical_mensalidade_trat_unique:</h2>
+<h3 style="font-family:roboto;">Utilizadas na collection medical_mensalidade_trat_unique:</h3>
 
 <b>Invalid_negative_values:</b> Consiste em validar quais valores são inválidos (negativos), utilizando do campo valor_mensalidade, com o propósito de manter os dados inválidos na collection. O resultado da aggregation gera a collection medical_mensalidade_invalid_values.
 
