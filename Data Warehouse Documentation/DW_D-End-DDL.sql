@@ -1,7 +1,7 @@
 CREATE TABLE Dim_Cliente (
     cli_id int IDENTITY(1, 1),
     cli_id_ori varchar(250),
-    cli_nome varchar(250),
+    cli_nome varchar(500),
     cli_data_nascimento datetime,
     cli_qtd_dependente int,
     cli_marca_otica bigint,
@@ -9,7 +9,7 @@ CREATE TABLE Dim_Cliente (
     cli_situacao varchar(50),
     cli_data_cancelamento datetime,
     cli_data_situacao datetime,
-    cli_cod_contrato numeric(18,0),
+    cli_cod_contrato varchar(500),
     CONSTRAINT Dim_Cliente_pk PRIMARY KEY  (cli_id)
 );
 
@@ -66,6 +66,5 @@ ALTER TABLE Fato_Medical ADD CONSTRAINT fk_plano_medical_pln_id
 ALTER TABLE Fato_Medical ADD CONSTRAINT fk_repasse_medical_rep_id
     FOREIGN KEY (Dim_Repasse_rep_id)
     REFERENCES Dim_Repasse (rep_id);
-
 
 
