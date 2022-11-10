@@ -61,7 +61,7 @@
   <p align="center"> <img src="https://github.com/guiftavares/Registro-de-Livros/blob/main/Group%2040linha.png"></p>
 
   <h2 style="font-family:roboto;"> Product Backlog</h2>
-   <p align="center"> <img src="https://user-images.githubusercontent.com/61523979/200960285-098d5bd8-1af1-4536-af6d-1941c77ad8f2.jpg" style="width: 400px;"></p>
+   <p align="center"> <img src="https://user-images.githubusercontent.com/61523979/201221046-44c299ee-9f8a-4c0e-8877-80557937ef3d.jpg" style="width: 400px;"></p>
    <p>To see more information about the process of Product Backlog Building access <a href="https://www.figma.com/file/NFWIWaxC1tScrvCGr3ZwNY/PBB-6-SEM?node-id=0%3A1">this link</a>.</p>
  
   <h2 style="font-family:roboto;"> Project access</h2>
