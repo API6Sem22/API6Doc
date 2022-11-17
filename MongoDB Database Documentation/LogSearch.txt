@@ -1,0 +1,19 @@
+[{
+ $project: {
+  _id: 0
+ }
+}, {
+ $unwind: {
+  path: '$Message'
+ }
+}, {
+ $unwind: {
+  path: '$Message'
+ }
+}, {
+ $match: {
+  Message: {
+   $regex: '62fffe3650790c092a7f8dcd'
+  }
+ }
+}]
